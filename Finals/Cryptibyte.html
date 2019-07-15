@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="Cryptibyte.css">
+   <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.fa {
+  float: right;
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+  align: right;
+}
+
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+body {
+    font-family: 'Poiret One', cursive;
+    color: white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+
+
+<!-- Add font awesome icons -->
+
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://mobile.twitter.com/explore" class="fa fa-twitter"></a>
+<a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+<a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+<a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome" class="fa fa-snapchat-ghost"></a>
+
+
+<body>
+<!--This background came from https://www.vexels.com/vectors/preview/125411/clear-geometric-shapes-abstract-background -->
+
+<body background="Finals.jpg">
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Cover.html">Cover</a>
+  <a href="Homepage.html">Home</a>
+  <a href="About.html">About Us</a>
+  <a href="Beginner.html">Beginner Games</a>
+  <a href="Moderate.html">Moderate Games</a>
+  <a href="Intermediate.html">Intermediate Games</a>
+  <a href="TechToday.html">Technology Today</a>
+  <a href="Information.html">Information</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<div class="header">
+  <h1 style="text-align: center;">CryptiByte</h1>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+</html>

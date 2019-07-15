@@ -1,0 +1,139 @@
+body, html {
+    height: 100%;
+    background-size: cover;
+}
+
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
+ .fa {
+   float: right;
+   padding: 10px;
+   font-size: 20px;
+   width: 20px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+   border-radius: 30%;
+   align: right;
+ }
+
+
+
+ .fa-facebook {
+   background: #3B5998;
+   color: white;
+ }
+
+ .fa-twitter {
+   background: #55ACEE;
+   color: white;
+ }
+
+
+
+ .fa-linkedin {
+   background: #007bb5;
+   color: white;
+ }
+
+
+
+ .fa-instagram {
+   background: #125688;
+   color: white;
+ }
+
+ .fa-pinterest {
+   background: #cb2027;
+   color: white;
+ }
+
+ .fa-snapchat-ghost {
+   background: #fffc00;
+   color: white;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ }
+
+/* Photo by Caspar Camille Rubin on Unsplash */
+/*https://spectrum.ieee.org/automaton/robotics/robotics-software/aldebaran-robotics-to-open-source-nao-robot*/
+/*Photo by NESA by Makers on Unsplash*/
+/*Photo by JESHOOTS.COM on Unsplash*/
+/*https://www.playcodemonkey.com/blog/codemonkey-history-101/*/
+/*https://busy.org/@overthinker/flexbox-froggy-a-game-for-learning-css-flexbox*/
+/*http://www.flexboxdefense.com*/
+/*https://patch.com/california/santacruz/calendar/event/20181004/387372/codecombat-at-aptos-branch-library*/
+/*http://www.iconoclastlabs.com/blog/ruby-warrior-walkthrough-part-1*/
+/*https://jayisgames.com/review/untrusted.php*/
+/*https://robocode.sourceforge.io*/
+/*http://www.focusedsupport.com/blog/getting-setup-with-scientific-python/*/
+
+
+
+.container{
+width: 2000px;
+height: 800px;
+margin: 100px auto;
+background: #547c7d;
+position: relative;
+border-style: solid;
+border-color: black;
+border-width: thick;
+}
+
+.container h1 {
+  margin: 0;
+  padding: 0;
+  font-family:'Poiret One', cursive;
+  font-size: 30px;
+  color: black;
+  text-transformation: uppercase;
+  text-align: center;
+  line-height: 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+
+}
+
+.jumbotron{
+background-image: url(Finals.jpg);
+background-size: cover;
+height: 100%;
+min-height: 300px;}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 9px 10px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card .content {
+  padding: 45px;
+  max-width: 100%;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
